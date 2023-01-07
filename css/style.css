@@ -20,19 +20,19 @@ html{
 .btn-hm{
 
     display: inline-block;
-    background-color: #fec544;
+    background-color: #E7A30C;
     color: black;
     font-size: 25px;
     font-weight: bold;
     padding: 8px 36px;
     margin-top: 20px;
     border-radius: 50px;
-    border: 2px solid #fec544;
+    border: 2px solid #E7A30C;
     transition: all 0.3s ease;
 }
 
 .btn-hm:hover{
-    color: #fec544;
+    color: #E7A30C;
     background: none;
 }
 
@@ -48,7 +48,7 @@ html{
     text-align: center;
 }
 .a-heading{
-    color:#fec544;
+    color:#E7A30C;
     font-size: 32px;
     margin-bottom: 12px;
 }
@@ -88,7 +88,7 @@ section{
 
 /* .......................About header section end........................*/
 .header{
-    background-image: url('../images/shiny.jpg');
+    background-image: url('../images/hero1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -118,7 +118,7 @@ section{
             /* ...................................*/
 
 .navbar .nme{
-    color: #fec544;
+    color: #E7A30C;
     font-size: 40px;
 }
 .navbar ul li{
@@ -130,12 +130,12 @@ section{
 }
 
 .navbar ul li a{
-     color:#A9ADB8;
+     color:#f1eded;
      font-weight: bold;
      transition: all 0.5s ease;
 } 
 .navbar ul li a:hover{
-    color: #fec544;
+    color: #E7A30C;
 }
 
 
@@ -164,7 +164,7 @@ section{
 /* ...................typing button JS CSS....................*/
 
 .header-content .txt-3 span{
-    color:#FFC75F;
+    color:#E7A30C;
 }
 
 /* .................END........................ */
@@ -184,14 +184,14 @@ section{
 
 #about{
     background: #07080b;
-    /* background-image: radial-gradient(circle, #70dbeb, #3ac7ec, #00b2ec, #009aea, #0081e1, #2779dd, #3b71d9, #4b68d3, #5f71d8, #707bdd, #7f85e2, #8e8fe7); */
+    
     
 }
 .about .title::before{
-    background: #FEC544;
+    background: #E7A30C;
 }
 .about .title::after{
-    background: #FEC544;
+    background: #E7A30C;
 }
 .about h1{
     color: #6e6e70;
@@ -233,7 +233,7 @@ section{
     margin-bottom: 10px;
 }
 .about .about-content .right span{
-    color: #FEC544;
+    color: #E7A30C;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -257,7 +257,7 @@ section{
 
 #services{
     color: #A9ADB8;
-    background-color: #FEC544;
+    background-color: #E7A30C;
     font-weight: 400;
 }
 .services h5{
@@ -302,12 +302,12 @@ section{
     border-radius: 50%;
     margin: -90px auto 0;
     background: #07080b;
-    border: 18px solid #FEC544;
+    border: 18px solid #E7A30C;
     transform:transform 1s;
 
 }
 .service-logo i{
-    color: #FEC544;
+    color: #E7A30C;
     width: 50px;
     margin-top: 20px;
 }
@@ -323,7 +323,7 @@ section{
     content: '';
     width: 40px;
     height: 30px;
-    background: linear-gradient(to right, #07080B , #FEC544 );
+    background: linear-gradient(to right, #07080B , #E7A30C);
     position: absolute;
     right: -5px;
     top: -5px;
@@ -334,7 +334,7 @@ section{
     content: '';
     width: 40px;
     height: 30px;
-    background: linear-gradient(to right, #FEC544 , #07080B);
+    background: linear-gradient(to right, #E7A30C , #07080B);
     position: absolute;
     left: -5px;
     bottom: -5px;
@@ -351,7 +351,7 @@ section{
     font-weight: 500;
 }
 .skills h1{
-    color: #6e6e70;
+    color: #ffffff;
     text-align: center;
     font-size: 80px;
     transform: translateY(20px);
@@ -364,10 +364,10 @@ section{
      transform: translateY(-65px);
 }
 .skills .title::before{
-    background-color:#FEC544;
+    background-color:#E7A30C;
 }
 .skills .title::after{
-    background: #FEC544;
+    background: #E7A30C;
 }
 .skills .skill-content{
     margin-top: 40px;
@@ -378,7 +378,7 @@ section{
     font-weight: 700;
     padding: 10px 0;
     margin-bottom: 10px;
-    color: #FEC544;
+    color: #E7A30C;
 
 }
 .skills .skill-content .left p{
@@ -389,25 +389,25 @@ section{
 }
 .skills .skill-content .left a{
     display: inline-block;
-    background: #FEC544;
+    background: #E7A30C;
     color: #07080b;
     font-size: 18px;
     font-weight: 700px ;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 5px;
-    border: 2px solid #FEC544;
+    border: 2px solid #E7A30C;
     transition: all 0.3s ease ;
 }
 .skills .skill-content .left a:hover{
-    color: #FEC544;
+    color: #E7A30C;
     background: none;
 }
         /* .......................PROJECT styling....................... */
 
 #projects{
     color: #A9ADB8;
-    background: #FEC544;    
+    background: #E7A30C;    
     font-weight: 500;
     padding-bottom: 40px;
 }
@@ -459,7 +459,7 @@ section{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #FEC544;
+    border: 5px solid #E7A30C;
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover img{
@@ -499,10 +499,10 @@ section{
     transform: translateY(-65px);
 }
 .contact .title::after{
-    background: #FEC544;
+    background: #E7A30C;
 }
 .contact .title::before{
-    background: #FEC544;
+    background: #E7A30C;
 }
 .contact .contact-content .column{
     margin-top: 40px;
@@ -585,13 +585,13 @@ section{
             /* .............footer................ */
 #footer{
     text-align: center;
-    background: #FEC544;
+    background: #E7A30C;
     padding: 30px 0;
     color: #07080B;
     font-weight: 700;
 
 }
 #footer .link{
-    color: #eb0e0e;
+    color: #DF223D;
     
 }
